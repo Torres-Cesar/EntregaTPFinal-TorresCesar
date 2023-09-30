@@ -1,0 +1,19 @@
+// colores 
+
+$primerColor: rgb(255, 230, 252);
+$segundoColor: rgb(223, 113, 223);
+$tercerColor: rgb(139, 196, 134);
+$cuartoColor: rgb(51, 36, 51);
+$quintoColor: rgb(255, 117, 193);
+$sextoColor: rgb(36, 28, 35);
+
+// fuentes 
+
+$fontPrincipal: 'Quicksand', sans-serif;
+
+// MIXINS 
+
+@mixin hover1($tForm, $tTion) {
+    transform: scale($tForm);
+    transition: $tTion;
+}

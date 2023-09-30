@@ -1,0 +1,190 @@
+// CATALOGO 
+body {
+    .img404 {
+        width: 70%;
+        margin: 20px;
+    }
+
+    .btnError {
+        text-decoration: none;
+        background-color: $segundoColor;
+        border-radius: 10px;
+        color: $sextoColor;
+    }
+    .btnError:hover {
+        @include hover1(1.2, all 0.5s);
+        background-color: $quintoColor;
+    }
+}
+
+.contenedorMain {
+    .secArt {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin: 0px;
+
+        .cajaArt {
+            background-color: $quintoColor;
+            border-radius: 15px;
+            width: 320px;
+            margin: 5px;
+
+            .imgArt {
+                border-radius: 15px;
+                object-fit: cover;
+                height: 300px;
+                padding-top: 10px;
+            }
+
+            p {
+                line-height: 1rem;
+            }
+
+            .btn {
+                background-color: $tercerColor;
+            }
+
+            .btn:hover {
+                background-color: $segundoColor;
+                color: $sextoColor;
+            }
+        }
+
+        .cajaArt:hover {
+            @include hover1(1.02, all 0.5s);
+            background-color: $primerColor;
+        }
+
+        .secHot {
+            background-image: linear-gradient(to top, rgb(5, 5, 5), rgb(230, 20, 20), rgb(208, 219, 53));
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-bottom: 20px;
+            padding-top: 10px;
+            margin-top: 15px;
+
+            .cajaHots {
+                background-color: $primerColor;
+                border-radius: 15px;
+                width: 320px;
+                margin: 5px;
+
+                .imgArt {
+                    border-radius: 15px;
+                    object-fit: cover;
+                    height: 300px;
+                    padding-top: 10px;
+                }
+
+                .texCard {
+                    line-height: 1rem;
+                }
+
+                .btn {
+                    background-color: $tercerColor;
+                }
+
+                .btn:hover {
+                    background-color: $segundoColor;
+                    color: $sextoColor;
+                }
+            }
+
+            .cajaHots:hover {
+                @include hover1(1.02, all 0.5s);
+                background-color: $primerColor;
+            }
+        }
+    }
+}
+
+// CONTACTO
+
+.contenedorMain {
+    background-color: $primerColor;
+    padding-top: 25px;
+
+    .cajaContact {
+        background-image: url(../img/fondo-contacto.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 25px 0px;
+        display: flex;
+        justify-content: space-around;
+
+        .espacioForm {
+            background-color: $primerColor;
+            opacity: 85%;
+            text-align: center;
+            width: 40vw;
+            border-radius: 15px;
+
+            .btnForm {
+                margin: 20px 10px;
+            }
+
+            .btnForm:hover {
+                @include hover1(1.2, all 0.5s);
+                background-color: $quintoColor;
+                color: $sextoColor;
+            }
+        }
+
+        .imgForm {
+            align-items: center;
+
+            img {
+                width: 35vw;
+            }
+        }
+    }
+}
+
+// NOSOTROS 
+
+.contenedorMain {
+    background-color: $primerColor;
+    padding-top: 25px;
+
+    .cajaNosBan {
+        padding: 5px 10px;
+        margin: 5px;
+
+        .imgBaner {
+            object-fit: cover;
+            width: 300px;
+            height: 500px;
+        }
+    }
+
+    .cajaMet {
+        padding: 5px;
+        margin: 5px;
+        text-align: left;
+    }
+}
+
+// SUCURSALES 
+
+.contenedorMain {
+    background-color: $primerColor;
+    padding-top: 25px;
+
+    .cajaSuc {
+        text-align: center;
+
+        .imgLoc {
+            width: 327px;
+        }
+
+        .mapsUb {
+            padding: 5px;
+            width: 318px;
+            height: 30vh;
+        }
+    }
+}

@@ -1,0 +1,299 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* HEADER */
+
+.contenedorHeader {
+    text-align: center;
+    background-color: rgb(167, 169, 255);
+}
+.contenedorHeader p {
+    padding-top: 3px;
+    line-height: 2rem;
+}
+
+.colorHam {
+    background-color: rgb(235, 235, 235);
+}
+
+.navHeader {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.tamLogo {
+    width: 150px;
+}
+
+.miNav {
+    margin: 0px 5px;
+    text-align: center;
+}
+.miNav:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+    color: rgb(0, 0, 0);
+}
+
+/* MAIN */
+.contenedorMain {
+    background-color: #f0f6f6;
+    padding-top: 25px;
+}
+
+.tituloMain {
+    text-align: center;
+}
+
+.carousel01 {
+    background-image: url(../img/fondo-logo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100;
+    text-align: center;
+}
+
+.imgCarousel {
+    width: 45vw;
+    padding: 5px;
+}
+
+/* CATALOGO */
+
+.secArt {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0px;
+}
+
+.cajaArt {
+    background-color: #f0f6f6;
+    border-radius: 15px;
+    width: 320px;
+    margin: 5px;
+}
+.cajaArt:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+.imgArt {
+    border-radius: 15px;
+    object-fit: cover;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.texCard {
+    line-height: 1rem;
+}
+
+.btn {
+    background-color: rgb(167, 169, 255);
+}
+.btn:hover {
+    background-color: rgb(80, 83, 255);
+    color: rgb(0, 0, 0);
+}
+
+.secHot {
+    background-image: linear-gradient(to top, rgb(5, 5, 5), rgb(230, 20, 20), rgb(208, 219, 53));
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.cajaHots {
+    background-color: #f0f6f6;
+    border-radius: 15px;
+    width: 320px;
+    margin: 5px;
+}
+.cajaHots:hover {
+    background-color: rgb(255, 255, 255);
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+/* CONTACTO */
+
+.cajaContact {
+    background-image: url(../img/fondo-contacto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.espacioForm {
+    background-color: rgb(255, 255, 255);
+    opacity: 85%;
+    text-align: center;
+    width: 40vw;
+    border-radius: 15px;
+}
+
+.btnForm {
+    margin: 20px 10px;
+    background-color: rgb(255, 255, 255);
+}
+.btnForm:hover {
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: rgb(234, 241, 241);
+    color: rgb(0, 0, 0);
+}
+
+.imgForm {
+    align-items: center;
+}
+
+.imgForm img {
+    width: 35vw;
+}
+
+/* NOSOTROS */
+
+.cajaNosBan {
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.imgBaner {
+    object-fit: cover;
+    padding: 10px;
+    height: 60vh;
+}
+
+.nosCarr:hover {
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+.cajaMet {
+    padding: 5px;
+    margin: 5px;
+}
+
+/* SUCURSALES */
+
+.cajaSuc {
+    text-align: center;
+}
+
+.imgLoc {
+    width: 30vw;
+}
+
+.mapsUb {
+    padding: 5px;
+    width: 30vw;
+    height: 30vh;
+}
+
+/* ASIDE */
+
+aside {
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.cajasRedes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.btnRedes {
+    color: rgb(77, 77, 77);
+    padding: 5px;
+    margin: 5px 15px;
+}
+.btnRedes:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.cajasInfo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5px;
+}
+
+.cajasInfo div {
+    padding: 10px;
+}
+
+.titulos {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.icoRedes {
+    width: 90px;
+}
+
+/* FOOTER */
+
+.contenedorFooter {
+    background-color: rgb(167, 169, 255);
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    height: 130px;
+}
+
+.icoWa {
+    color: rgb(41, 197, 41);
+    width: 80px;
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+}
+.icoWa:hover {
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+.btnHs {
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 20, 20);
+    text-decoration: none;
+    position: fixed;
+    padding: 5px;
+    border-radius: 10px;
+    bottom: 55px;
+    left: 15px;
+}
+.btnHs:hover {
+    box-shadow: 1px 1px 10px rgb(0, 0, 0);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: rgb(255, 25, 25);
+    color: rgb(238, 255, 0);
+}
+
+.navFooter {
+    display: flex;
+    justify-content: center;
+}

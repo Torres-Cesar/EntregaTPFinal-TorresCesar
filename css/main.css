@@ -1,0 +1,307 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: rgb(51, 36, 51);
+}
+
+h1 h3 {
+  text-align: center;
+  line-height: 1.3rem;
+  line-height: 2rem;
+}
+
+body .img404 {
+  width: 70%;
+  margin: 20px;
+}
+body .btnError {
+  text-decoration: none;
+  background-color: rgb(223, 113, 223);
+  border-radius: 10px;
+  color: rgb(36, 28, 35);
+}
+body .btnError:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: rgb(255, 117, 193);
+}
+
+.contenedorMain .secArt {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0px;
+}
+.contenedorMain .secArt .cajaArt {
+  background-color: rgb(255, 117, 193);
+  border-radius: 15px;
+  width: 320px;
+  margin: 5px;
+}
+.contenedorMain .secArt .cajaArt .imgArt {
+  border-radius: 15px;
+  object-fit: cover;
+  height: 300px;
+  padding-top: 10px;
+}
+.contenedorMain .secArt .cajaArt p {
+  line-height: 1rem;
+}
+.contenedorMain .secArt .cajaArt .btn {
+  background-color: rgb(139, 196, 134);
+}
+.contenedorMain .secArt .cajaArt .btn:hover {
+  background-color: rgb(223, 113, 223);
+  color: rgb(36, 28, 35);
+}
+.contenedorMain .secArt .cajaArt:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+  background-color: rgb(255, 230, 252);
+}
+.contenedorMain .secArt .secHot {
+  background-image: linear-gradient(to top, rgb(5, 5, 5), rgb(230, 20, 20), rgb(208, 219, 53));
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 10px;
+  margin-top: 15px;
+}
+.contenedorMain .secArt .secHot .cajaHots {
+  background-color: rgb(255, 230, 252);
+  border-radius: 15px;
+  width: 320px;
+  margin: 5px;
+}
+.contenedorMain .secArt .secHot .cajaHots .imgArt {
+  border-radius: 15px;
+  object-fit: cover;
+  height: 300px;
+  padding-top: 10px;
+}
+.contenedorMain .secArt .secHot .cajaHots .texCard {
+  line-height: 1rem;
+}
+.contenedorMain .secArt .secHot .cajaHots .btn {
+  background-color: rgb(139, 196, 134);
+}
+.contenedorMain .secArt .secHot .cajaHots .btn:hover {
+  background-color: rgb(223, 113, 223);
+  color: rgb(36, 28, 35);
+}
+.contenedorMain .secArt .secHot .cajaHots:hover {
+  transform: scale(1.02);
+  transition: all 0.5s;
+  background-color: rgb(255, 230, 252);
+}
+
+.contenedorMain {
+  background-color: rgb(255, 230, 252);
+  padding-top: 25px;
+}
+.contenedorMain .cajaContact {
+  background-image: url(../img/fondo-contacto.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 25px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+.contenedorMain .cajaContact .espacioForm {
+  background-color: rgb(255, 230, 252);
+  opacity: 85%;
+  text-align: center;
+  width: 40vw;
+  border-radius: 15px;
+}
+.contenedorMain .cajaContact .espacioForm .btnForm {
+  margin: 20px 10px;
+}
+.contenedorMain .cajaContact .espacioForm .btnForm:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: rgb(255, 117, 193);
+  color: rgb(36, 28, 35);
+}
+.contenedorMain .cajaContact .imgForm {
+  align-items: center;
+}
+.contenedorMain .cajaContact .imgForm img {
+  width: 35vw;
+}
+
+.contenedorMain {
+  background-color: rgb(255, 230, 252);
+  padding-top: 25px;
+}
+.contenedorMain .cajaNosBan {
+  padding: 5px 10px;
+  margin: 5px;
+}
+.contenedorMain .cajaNosBan .imgBaner {
+  object-fit: cover;
+  width: 300px;
+  height: 500px;
+}
+.contenedorMain .cajaMet {
+  padding: 5px;
+  margin: 5px;
+  text-align: left;
+}
+
+.contenedorMain {
+  background-color: rgb(255, 230, 252);
+  padding-top: 25px;
+}
+.contenedorMain .cajaSuc {
+  text-align: center;
+}
+.contenedorMain .cajaSuc .imgLoc {
+  width: 327px;
+}
+.contenedorMain .cajaSuc .mapsUb {
+  padding: 5px;
+  width: 318px;
+  height: 30vh;
+}
+
+.contenedorHeader {
+  text-align: center;
+  background-color: rgb(223, 113, 223);
+}
+.contenedorHeader p {
+  padding-top: 3px;
+  line-height: 2rem;
+}
+.contenedorHeader .tamLogo {
+  width: 150px;
+}
+.contenedorHeader .colorHam {
+  background-color: rgb(255, 230, 252);
+}
+.contenedorHeader .navHeader {
+  display: flex;
+  justify-content: flex-end;
+}
+.contenedorHeader .navHeader .miNav {
+  color: rgb(36, 28, 35);
+  border-radius: 10px;
+  margin: 0px 5px;
+  text-align: center;
+}
+.contenedorHeader .navHeader .miNav:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: rgb(255, 117, 193);
+  opacity: 90%;
+}
+
+.contenedorMain {
+  background-color: rgb(255, 230, 252);
+  padding-top: 25px;
+  text-align: center;
+}
+.contenedorMain .carousel01 {
+  background-image: url(../img/fondo-logo.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100;
+  text-align: center;
+}
+.contenedorMain .carousel01 .imgCarousel {
+  width: 45vw;
+  padding: 5px;
+}
+.contenedorMain aside {
+  background-image: linear-gradient(to top, rgb(223, 113, 223), rgb(255, 230, 252), rgb(255, 230, 252));
+  text-align: center;
+  padding: 15px 0px;
+}
+.contenedorMain aside .cajasRedes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.contenedorMain aside .cajasRedes .btnRedes {
+  color: rgb(51, 36, 51);
+  padding: 5px;
+  margin: 5px 15px;
+}
+.contenedorMain aside .cajasRedes .btnRedes:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+}
+.contenedorMain aside .cajasInfo {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5px;
+}
+.contenedorMain aside .cajasInfo div {
+  padding: 10px;
+}
+.contenedorMain aside .cajasInfo div .titulos {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.3rem;
+  line-height: 2rem;
+}
+
+.contenedorFooter {
+  background-color: rgb(223, 113, 223);
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  padding-top: 5px;
+  padding-bottom: 30px;
+  height: 130px;
+}
+.contenedorFooter .icoWa {
+  color: rgb(139, 196, 134);
+  width: 80px;
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+}
+.contenedorFooter .icoWa:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  color: rgb(139, 196, 134);
+}
+.contenedorFooter .btnHs {
+  color: rgb(36, 28, 35);
+  background-color: rgb(230, 20, 20);
+  text-decoration: none;
+  position: fixed;
+  padding: 5px;
+  border-radius: 10px;
+  bottom: 55px;
+  left: 15px;
+}
+.contenedorFooter .btnHs:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  box-shadow: rgb(36, 28, 35);
+  background-color: rgb(255, 25, 25);
+  color: rgb(36, 28, 35);
+}
+.contenedorFooter .navFooter {
+  display: flex;
+  justify-content: center;
+}
+.contenedorFooter .navFooter .miNav {
+  border-radius: 10px;
+  margin: 0px 5px;
+  text-align: center;
+  color: rgb(36, 28, 35);
+}
+.contenedorFooter .navFooter .miNav:hover {
+  transform: scale(1.2);
+  transition: all 0.5s;
+  background-color: rgb(255, 117, 193);
+  opacity: 90%;
+}
+
+/*# sourceMappingURL=main.css.map */

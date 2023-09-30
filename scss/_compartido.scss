@@ -1,0 +1,161 @@
+// HEADER
+
+.contenedorHeader {
+    text-align: center;
+    background-color: $segundoColor;
+
+    p {
+        padding-top: 3px;
+        line-height: 2rem;
+    }
+
+    .tamLogo {
+        width: 150px;
+    }
+
+    .colorHam {
+        background-color: $primerColor;
+    }
+
+    .navHeader {
+        display: flex;
+        justify-content: flex-end;
+
+        .miNav {
+            color: $sextoColor;
+            border-radius: 10px;
+            margin: 0px 5px;
+            text-align: center;
+        }
+
+        .miNav:hover {
+            @include hover1(1.2, all 0.5s);
+            background-color: $quintoColor;
+            opacity: 90%;
+        }
+    }
+}
+
+// MAIN ASIDE 
+
+.contenedorMain {
+    background-color: $primerColor;
+    padding-top: 25px;
+    text-align: center;
+
+    .carousel01 {
+        background-image: url(../img/fondo-logo.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100;
+        text-align: center;
+
+        .imgCarousel {
+            width: 45vw;
+            padding: 5px;
+        }
+    }
+
+    aside {
+        background-image: linear-gradient(to top, $segundoColor, $primerColor, $primerColor);
+        text-align: center;
+        padding: 15px 0px;
+
+        .cajasRedes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+
+
+            .btnRedes {
+                color: $cuartoColor;
+                padding: 5px;
+                margin: 5px 15px;
+            }
+
+            .btnRedes:hover {
+                @include hover1(1.2, all 0.5s);
+            }
+
+        }
+
+        .cajasInfo {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 5px;
+
+            div {
+                padding: 10px;
+
+                .titulos {
+                    font-family: $fontPrincipal;
+                    font-size: 1.3rem;
+                    line-height: 2rem;
+                }
+            }
+        }
+    }
+}
+
+// FOOTER 
+
+.contenedorFooter {
+    background-color: $segundoColor;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    height: 130px;
+
+    .icoWa {
+        color: $tercerColor;
+        width: 80px;
+        position: fixed;
+        bottom: 40px;
+        right: 15px;
+    }
+
+    .icoWa:hover {
+        @include hover1(1.2, all 0.5s);
+        color: $tercerColor;
+    }
+
+    .btnHs {
+        color: $sextoColor;
+        background-color: rgb(230, 20, 20);
+        text-decoration: none;
+        position: fixed;
+        padding: 5px;
+        border-radius: 10px;
+        bottom: 55px;
+        left: 15px;
+    }
+
+    .btnHs:hover {
+        @include hover1(1.2, all 0.5s);
+        box-shadow: $sextoColor;
+        background-color: rgb(255, 25, 25);
+        color: $sextoColor;
+    }
+
+    .navFooter {
+        display: flex;
+        justify-content: center;
+
+        .miNav {
+            border-radius: 10px;
+            margin: 0px 5px;
+            text-align: center;
+            color: $sextoColor;
+        }
+
+        .miNav:hover {
+            @include hover1(1.2, all 0.5s);
+            background-color: $quintoColor;
+            opacity: 90%;
+        }
+
+    }
+}
